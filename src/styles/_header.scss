@@ -21,12 +21,26 @@
   }
   .search {
     width: calc(100% - 300px);
+    position: relative;
+    color: #fff;
+    label {
+      cursor: pointer;
+      left: 10px;
+      top: 10px;
+      color: #fff;
+      position: absolute;
+      // background-color: #fff;
+    }
+    .glass {
+      color: #fff;
+    }
     input {
       width: 60%;
       border: 0;
-      padding: 10px 20px;
+      padding: 10px 40px;
       border-radius: 50px;
       background-color: #382f04;
+      color: #fff;
       &::-webkit-input-placeholder {
         color: #fff;
       }

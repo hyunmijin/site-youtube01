@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Videos } from './';
-import Loader from './Loader';
 
 const SearchConts = () => {
   const [videos, setVideos] = useState(null);
@@ -16,11 +15,9 @@ const SearchConts = () => {
       .catch((error) => console.log(error));
   }, [searchTerm]);
 
-  if (!videos) return <Loader />;
-
   return (
     <main id="main">
-      <section id="contents">
+      <section id="search">
         <h2>
           <em>{searchTerm}</em>
         </h2>
