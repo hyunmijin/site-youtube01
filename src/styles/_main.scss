@@ -57,7 +57,7 @@
           margin: 5px;
           // margin-top: 100px;
           display: -webkit-box; /* 두 줄에서 끊기게 함 */
-          -webkit-line-clamp: 3; /* 두 줄로 제한 */
+          -webkit-line-clamp: 2; /* 두 줄로 제한 */
           -webkit-box-orient: vertical; /* 수직 방향으로 레이아웃 */
           overflow: hidden;
           color: #000;
