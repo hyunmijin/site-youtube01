@@ -42,17 +42,18 @@
         padding: 0;
         margin: 10px;
         padding: 10px;
-        width: 400px;
+        width: 300px;
         height: 350px;
         border: 1px solid #ffffff;
         background-color: #eedac7b7;
         img {
-          width: 380px;
+          width: 280px;
           height: 250px;
           background-size: cover;
           object-fit: cover;
         }
         > h3 {
+          font-size: 15px;
           margin: 5px;
           // margin-top: 100px;
           display: -webkit-box; /* 두 줄에서 끊기게 함 */

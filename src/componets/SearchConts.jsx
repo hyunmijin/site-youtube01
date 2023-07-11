@@ -17,7 +17,6 @@ const SearchConts = () => {
   }, [searchTerm]);
 
   if (!videos) return <Loader />;
-
   return (
     <main id="main">
       <section id="contents">
