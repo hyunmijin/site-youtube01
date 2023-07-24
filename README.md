@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+## 유투브 추천 사이트
+유투브 API를 활용해 음악 추천 사이트를 제작했습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<ul>
+  <li>사이트 : <a href="https://youtube-jin.netlify.app/" target="_blank">바로가기</a></li>
+</ul>
+<br><br>
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 사용 스택
+<ul>
+  <li>React: 웹 애플리케이션의 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리입니다.</li>
+    <li>React DOM: React 애플리케이션을 브라우저에서 렌더링하는 데 사용되는 패키지입니다.</li>
+      <li>React Icons: 다양한 아이콘 세트를 React 컴포넌트로 쉽게 사용할 수 있도록 도와주는 패키지입니다.</li>
+      <li>React Player: 오디오 및 비디오를 처리하는데 사용되는 React 컴포넌트입니다.</li>
+  <li>React Router DOM: React 애플리케이션에서 라우팅을 구현하기 위한 패키지입니다.</li>
+    <li>Axios: HTTP 요청을 보내고 응답을 받기 위해 사용되는 자바스크립트 라이브러리입니다.</li>
+    <li>Sass: CSS의 확장 문법인 Sass(Syntactically Awesome StyleSheets)를 사용하기 위한 패키지입니다.</li>
+      <li>Git: 파일을 관리합니다.</li>
+</ul>
